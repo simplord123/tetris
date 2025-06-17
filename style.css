@@ -89,7 +89,7 @@ footer img{
     padding-right: 0.25rem;
     padding-left: 0.25rem;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     main {
         background-image: radial-gradient(steelblue,black);
         display: flex;
@@ -104,5 +104,28 @@ footer img{
         max-height: 350px;
         box-shadow: 5px 5px 5px black;
         margin-bottom: 15rem;
+      }
+      footer{
+        position: fixed;
+        width: inherit;
+        max-width: inherit;
+        padding: 0.4rem;
+        height: fit-content;
+        bottom: 0;
+        background-color: black;
+        backdrop-filter: blur(1rem);
+        border-top: 5px double #333;   
+        color: whitesmoke;
+        text-align: center;
+        font-size: 0.5rem;
+      }
+      footer img{
+        display: inline-block;
+        margin: auto;
+        align-items: center;
+        padding-right: 0.50rem;
+        padding-left: 0.50rem;
+        width: 3.4rem;
+        height: 2.5rem;
       }
 }
