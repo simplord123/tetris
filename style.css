@@ -18,15 +18,15 @@ body{
     background-position: center;
 }
 main {
-    background-image: radial-gradient(whitesmoke,black);
+    background-image: radial-gradient(steelblue,black);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
   }
   canvas {
-    border: 1px solid gray;
-    background-color: #333;
+    border: 5px ridge gray;
+    background-color: firebrick;
     max-width: 400px;
     max-height: 500px;
     box-shadow: 5px 5px 5px black;
@@ -91,15 +91,15 @@ footer img{
 }
 @media screen and (max-width: 375px) {
     main {
-        background-image: radial-gradient(whitesmoke,black);
+        background-image: radial-gradient(steelblue,black);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-grow: 1;
       }
       canvas {
-        border: 1px solid gray;
-        background-color: #333;
+        border: 5px ridge gray;
+        background-color: firebrick;
         max-width: 300px;
         max-height: 350px;
         box-shadow: 5px 5px 5px black;
