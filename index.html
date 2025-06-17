@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Fluke.com</title>
-  <link rel="icon" type="image/png" href="dice-5 (1).png">
   <meta charset="UTF-8">
-  <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-
-  body {
-    background: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  canvas {
-    border: 1px solid white;
-  }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="dice-5 (1).png">
+  <link rel="stylesheet" href="style.css">
+  <title>Fluke.com</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><img src="dice-5 (1).png" alt="dice" width="25" height="25">FLUKE</a></div>
+        <ul>
+            <li class="li"><a href="https://simplord123.github.io/home/">Home</a></li>
+            <li class="li"><a href="https://simplord123.github.io/7777group/">Menu</a></li>
+            <li class="li"><a href="https://t.me/Deus_servus" target="_blank">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+<main>
 <canvas width="320" height="640" id="game"></canvas>
 <script>
 // https://tetris.fandom.com/wiki/Tetris_Guideline
@@ -316,5 +314,34 @@ document.addEventListener('keydown', function(e) {
 // start the game
 rAF = requestAnimationFrame(loop);
 </script>
+</main>
+<footer>
+  <a href="https://www.facebook.com/" target="_blank">
+  <img src="facebook.png" alt="facebook" width="60" height="50"></a>
+  <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+  <img src="insta.png" alt="instagram" width="60" height="50"></a>
+  <a href="https://x.com/" target="_blank">
+  <img src="twitter.png" alt="X" width="60" height="50"></a>
+  <a href="https://www.tiktok.com/en" target="_blank">
+  <img src="tiktok.png" alt="tiktok" width="60" height="50"></a>
+  <a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="youtube" width="60" height="50"></a>
+<p>
+  "Eyes to the Sky"<br>
+  Five were called to watch the skies,
+  But one stayed home, with doubting eyes.
+  One came, but left when hope grew thin,
+  One slept, the stars too slow to win.
+</p>
+<br>
+<p>
+  One blinked and missed the fire’s flight,
+  But one stayed still through silent night—
+  And saw a meteor blaze the air,
+  A gift for those who choose to care.
+</p>
+<br>
+  <p>&copy; FLUKE Ltd., All rights reserved 1999-2025.
+</p>
+</footer>
 </body>
 </html>
